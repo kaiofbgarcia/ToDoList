@@ -23,6 +23,10 @@ body{
     justify-content: center;
 }
 
+.rocket-icon{
+    margin: 0 8px;
+}
+
 .todo-app{
     display: flex;
     flex-direction: column;
