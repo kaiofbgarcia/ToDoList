@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import TodoForm from './TodoForm';
 import Todo from './Todo';
+import Header from './Header';
+import logo from '../img/KaioLogo.png';
+
 
 function TodoList() {
   const [todos, setTodos] = useState([]);
@@ -42,7 +45,7 @@ function TodoList() {
 
   return (
     <>
-      <h1>Lista de Tarefas</h1>
+      <Header />
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}
