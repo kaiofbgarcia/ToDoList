@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import TodoForm from './TodoForm';
 import Todo from './Todo';
 import Header from './Header';
-import logo from '../img/KaioLogo.png';
 
 
 function TodoList() {
